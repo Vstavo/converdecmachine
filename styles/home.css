@@ -84,6 +84,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 0.25rem;
 }
 
 .features__content{
@@ -129,8 +130,8 @@
     padding: 0.5rem;
     margin: 0.25rem;
     border-radius: 4px;
-    height: 162px;
-    width: 184px;
+    min-height: 162px;
+    min-width: 184px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
